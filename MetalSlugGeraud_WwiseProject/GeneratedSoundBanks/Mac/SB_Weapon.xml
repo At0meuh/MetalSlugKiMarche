@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="649986797" Type="User" GUID="{8DCF3529-1857-4788-96A3-A107A127FA39}" Language="SFX" Hash="{296D5DB6-12CB-288C-DEDF-12CCA9682FF9}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Weapon</ObjectPath>
+			<ShortName>SB_Weapon</ShortName>
+			<Path>SB_Weapon.bnk</Path>
+			<Media>
+				<File Id="114855330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword.wav</ShortName>
+					<CachePath>SFX/sword_818F3B66.wem</CachePath>
+				</File>
+				<File Id="161970053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-004.wav</ShortName>
+					<CachePath>SFX/sword-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="262077039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-003.wav</ShortName>
+					<CachePath>SFX/sword-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="488117437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>scream.wav</ShortName>
+					<CachePath>SFX/scream_818F3B66.wem</CachePath>
+				</File>
+				<File Id="525743962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-001.wav</ShortName>
+					<CachePath>SFX/sword-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="710049256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-002.wav</ShortName>
+					<CachePath>SFX/sword-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="763865743" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explosion.wav</ShortName>
+					<CachePath>SFX/explosion_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1807770338" Name="Play_RND_SwordWhoosh" ObjectPath="\Events\Default Work Unit\Play_RND_SwordWhoosh" GUID="{AD18A7A9-9B43-4C10-9C78-E45AC2F3EF36}" DurationType="OneShot" DurationMin="0.24949203" DurationMax="0.4406627">
+					<MediaRefs>
+						<MediaRef Id="114855330"/>
+						<MediaRef Id="161970053"/>
+						<MediaRef Id="262077039"/>
+						<MediaRef Id="525743962"/>
+						<MediaRef Id="710049256"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2514707895" Name="Play_SFX_Explosion" ObjectPath="\Events\Default Work Unit\Play_SFX_Explosion" GUID="{F784881D-EB5C-47CD-9E14-A0E7839B9FDD}" DurationType="OneShot" DurationMin="0.73290443" DurationMax="0.8226575">
+					<MediaRefs>
+						<MediaRef Id="763865743"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2620856293" Name="Play_SFX_Scream" ObjectPath="\Events\Default Work Unit\Play_SFX_Scream" GUID="{8217C50D-9C43-493C-8D22-C986C607B415}" DurationType="OneShot" DurationMin="3.713288" DurationMax="3.713288">
+					<MediaRefs>
+						<MediaRef Id="488117437"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="911684419" Name="Stop_SFX_Scream" ObjectPath="\Events\Default Work Unit\Stop_SFX_Scream" GUID="{5F576338-6832-49BB-B22F-222F00DBE15A}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{1A41A6DF-E26D-B17B-D0D9-0BF8B2B0BB67}</FileHash>
+</SoundBanksInfo>

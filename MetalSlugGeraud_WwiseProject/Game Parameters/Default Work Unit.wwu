@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{B2B51C23-8B54-45E1-9265-C300B985E433}" SchemaVersion="119">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{B2B51C23-8B54-45E1-9265-C300B985E433}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="GP_Menu" ID="{B3BB93F0-2355-48A5-9A18-666368EE1B14}"/>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>

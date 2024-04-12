@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	179233414	Play_RDN_Metal			\Default Work Unit\Play_RDN_Metal	
+	1076973970	Play_RND_Pierre			\Default Work Unit\Play_RND_Pierre	
+
+Switch Group	ID	Name			Wwise Object Path	Notes
+	3865314626	Material			\Default Work Unit\Material	
+
+Switch	ID	Name	Switch Group			Notes
+	1788550750	Pierre	Material			
+	2473969246	Metal	Material			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	361212709	MetalFootStep3	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\MetalFootStep3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\FootSteps\FootSteps\RDN_Metal\MetalFootStep3		42636
+	381522998	MetalFootStep4	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\MetalFootStep4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\FootSteps\FootSteps\RDN_Metal\MetalFootStep4		27672
+	440668861	NormalFootsteps3	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\NormalFootsteps3_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\FootSteps\FootSteps\RND_Pierre\NormalFootsteps3		45500
+	572875344	MetalFootStep2	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\MetalFootStep2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\FootSteps\FootSteps\RDN_Metal\MetalFootStep2		34180
+	652325852	MetalFootStep1	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\MetalFootStep1_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\FootSteps\FootSteps\RDN_Metal\MetalFootStep1		29624
+	704130301	NormalFootsteps2	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\NormalFootsteps2_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\FootSteps\FootSteps\RND_Pierre\NormalFootsteps2		41868
+	784844279	NormalFootsteps4	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\NormalFootsteps4_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\FootSteps\FootSteps\RND_Pierre\NormalFootsteps4		34604
+	806271620	NormalFootsteps	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\NormalFootsteps_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\FootSteps\FootSteps\RND_Pierre\NormalFootsteps		26432
+	819224985	NormalFootsteps5	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\NormalFootsteps5_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\FootSteps\FootSteps\RND_Pierre\NormalFootsteps5		41868
+	841158516	NormalFootsteps6	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\NormalFootsteps6_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\FootSteps\FootSteps\RND_Pierre\NormalFootsteps6		22796
+

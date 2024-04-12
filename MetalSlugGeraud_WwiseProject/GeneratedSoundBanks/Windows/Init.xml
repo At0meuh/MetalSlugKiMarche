@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{9E6DF49E-9D42-F60A-CAC7-61E048157837}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{CE51D596-8423-40B9-934C-BF21C214754F}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{52EA4767-5F49-4795-A4A0-2F90B8EB7178}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2379520782" Name="GP_Menu" ObjectPath="\Game Parameters\Default Work Unit\GP_Menu" GUID="{B3BB93F0-2355-48A5-9A18-666368EE1B14}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{122AB9FE-2AEC-4D06-930D-297531E3D68E}">
+					<Switches>
+						<Switch Id="1788550750" Name="Pierre" ObjectPath="\Switches\Default Work Unit\Material\Pierre" GUID="{03071D1E-8334-430E-A2F7-D491F76E0125}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{0194E655-65DE-4580-B8A8-AB6A1F195B1F}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{D5FDCFB1-DF44-53BD-3008-0BBC168C5E0B}</FileHash>
+</SoundBanksInfo>

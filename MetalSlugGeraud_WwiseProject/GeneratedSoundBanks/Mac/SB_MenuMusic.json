@@ -1,0 +1,132 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "475414361",
+    "Type": "User",
+    "GUID": "{E429E401-F976-4E4F-AC64-1147BB0CF19B}",
+    "Language": "SFX",
+    "Hash": "{EAC45AD5-B51B-C00A-4555-BBD88DDD330D}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MenuMusic",
+    "ShortName": "SB_MenuMusic",
+    "Path": "SB_MenuMusic.bnk",
+    "Media": [
+     {
+      "Id": "427073833",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MenuLoop.wav",
+      "CachePath": "SFX/MenuLoop_FBC78EF0.wem"
+     },
+     {
+      "Id": "433914112",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "R2_D2_Scream.WAV",
+      "CachePath": "SFX/R2_D2_Scream_818F3B66.wem"
+     },
+     {
+      "Id": "759811360",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "MenuStart.wav",
+      "CachePath": "SFX/MenuStart_818F3B66.wem"
+     },
+     {
+      "Id": "852612399",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SelectionSoundEffect.wav",
+      "CachePath": "SFX/SelectionSoundEffect_818F3B66.wem"
+     },
+     {
+      "Id": "907686520",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "SwitchButtonSoundEffect.wav",
+      "CachePath": "SFX/SwitchButtonSoundEffect_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "1819622850",
+      "Name": "Play_SC_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SC_Menu",
+      "GUID": "{42D54A32-FE45-4A8C-A6FE-78DC1408EA2F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "427073833"
+       },
+       {
+        "Id": "759811360"
+       }
+      ]
+     },
+     {
+      "Id": "1832282853",
+      "Name": "Play_SFX_Nest0rScream",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Nest0rScream",
+      "GUID": "{4EC554FF-AB05-47D2-8BE4-0EBB5B967CF2}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.3800626",
+      "DurationMax": "2.3800626",
+      "MediaRefs": [
+       {
+        "Id": "433914112"
+       }
+      ]
+     },
+     {
+      "Id": "3280254048",
+      "Name": "Play_SFX_SelectionButton",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_SelectionButton",
+      "GUID": "{E4872B82-55E1-45D0-9931-11AAB36252B9}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2291126",
+      "DurationMax": "1.3796325",
+      "MediaRefs": [
+       {
+        "Id": "852612399"
+       }
+      ]
+     },
+     {
+      "Id": "306136790",
+      "Name": "Play_SFX_SwitchButton",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_SwitchButton",
+      "GUID": "{94FE0AAD-F2FC-40BF-9071-29C3FD755C18}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0183568",
+      "DurationMax": "1.143067",
+      "MediaRefs": [
+       {
+        "Id": "907686520"
+       }
+      ]
+     },
+     {
+      "Id": "74438180",
+      "Name": "Stop_SC_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SC_Menu",
+      "GUID": "{5EB85CF7-BD37-450B-A127-F127B97B7F2F}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5E221087-E047-882B-1606-0160B1F8F7C4}"
+ }
+}

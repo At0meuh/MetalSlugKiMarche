@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	911684419	Stop_SFX_Scream			\Default Work Unit\Stop_SFX_Scream	
+	1807770338	Play_RND_SwordWhoosh			\Default Work Unit\Play_RND_SwordWhoosh	
+	2514707895	Play_SFX_Explosion			\Default Work Unit\Play_SFX_Explosion	
+	2620856293	Play_SFX_Scream			\Default Work Unit\Play_SFX_Scream	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	114855330	sword	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\sword_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Sword\RND_SwordWhoosh\sword		49012
+	161970053	sword-004	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\sword-004_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Sword\RND_SwordWhoosh\sword-004		75616
+	262077039	sword-003	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\sword-003_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Sword\RND_SwordWhoosh\sword-003		68064
+	488117437	SFX_Scream	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\scream_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\PlayerSound\SFX_Scream		655120
+	525743962	sword-001	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\sword-001_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Sword\RND_SwordWhoosh\sword-001		45396
+	710049256	sword-002	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\sword-002_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Weapons\Sword\RND_SwordWhoosh\sword-002		47348
+	763865743	SFX_Explosion	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\explosion_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Explosion		137068
+

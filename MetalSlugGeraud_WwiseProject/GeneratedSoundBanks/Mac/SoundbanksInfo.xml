@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<RootPaths>
+		<ProjectRoot>../..</ProjectRoot>
+		<SourceFilesRoot>../../.cache/Mac</SourceFilesRoot>
+		<SoundBanksRoot>.</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<SoundBanks>
+		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{EAC45AD5-B51B-C00A-4555-BBD88DDD330D}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_MenuMusic</ObjectPath>
+			<ShortName>SB_MenuMusic</ShortName>
+			<Path>SB_MenuMusic.bnk</Path>
+			<Media>
+				<File Id="427073833" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MenuLoop.wav</ShortName>
+					<CachePath>SFX/MenuLoop_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="433914112" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>R2_D2_Scream.WAV</ShortName>
+					<CachePath>SFX/R2_D2_Scream_818F3B66.wem</CachePath>
+				</File>
+				<File Id="759811360" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MenuStart.wav</ShortName>
+					<CachePath>SFX/MenuStart_818F3B66.wem</CachePath>
+				</File>
+				<File Id="852612399" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SelectionSoundEffect.wav</ShortName>
+					<CachePath>SFX/SelectionSoundEffect_818F3B66.wem</CachePath>
+				</File>
+				<File Id="907686520" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>SwitchButtonSoundEffect.wav</ShortName>
+					<CachePath>SFX/SwitchButtonSoundEffect_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1819622850" Name="Play_SC_Menu" ObjectPath="\Events\Default Work Unit\Play_SC_Menu" GUID="{42D54A32-FE45-4A8C-A6FE-78DC1408EA2F}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="427073833"/>
+						<MediaRef Id="759811360"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1832282853" Name="Play_SFX_Nest0rScream" ObjectPath="\Events\Default Work Unit\Play_SFX_Nest0rScream" GUID="{4EC554FF-AB05-47D2-8BE4-0EBB5B967CF2}" DurationType="OneShot" DurationMin="2.3800626" DurationMax="2.3800626">
+					<MediaRefs>
+						<MediaRef Id="433914112"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3280254048" Name="Play_SFX_SelectionButton" ObjectPath="\Events\Default Work Unit\Play_SFX_SelectionButton" GUID="{E4872B82-55E1-45D0-9931-11AAB36252B9}" DurationType="OneShot" DurationMin="1.2291126" DurationMax="1.3796325">
+					<MediaRefs>
+						<MediaRef Id="852612399"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="306136790" Name="Play_SFX_SwitchButton" ObjectPath="\Events\Default Work Unit\Play_SFX_SwitchButton" GUID="{94FE0AAD-F2FC-40BF-9071-29C3FD755C18}" DurationType="OneShot" DurationMin="1.0183568" DurationMax="1.143067">
+					<MediaRefs>
+						<MediaRef Id="907686520"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="74438180" Name="Stop_SC_Menu" ObjectPath="\Events\Default Work Unit\Stop_SC_Menu" GUID="{5EB85CF7-BD37-450B-A127-F127B97B7F2F}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="649986797" Type="User" GUID="{8DCF3529-1857-4788-96A3-A107A127FA39}" Language="SFX" Hash="{296D5DB6-12CB-288C-DEDF-12CCA9682FF9}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_Weapon</ObjectPath>
+			<ShortName>SB_Weapon</ShortName>
+			<Path>SB_Weapon.bnk</Path>
+			<Media>
+				<File Id="114855330" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword.wav</ShortName>
+					<CachePath>SFX/sword_818F3B66.wem</CachePath>
+				</File>
+				<File Id="161970053" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-004.wav</ShortName>
+					<CachePath>SFX/sword-004_818F3B66.wem</CachePath>
+				</File>
+				<File Id="262077039" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-003.wav</ShortName>
+					<CachePath>SFX/sword-003_818F3B66.wem</CachePath>
+				</File>
+				<File Id="488117437" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>scream.wav</ShortName>
+					<CachePath>SFX/scream_818F3B66.wem</CachePath>
+				</File>
+				<File Id="525743962" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-001.wav</ShortName>
+					<CachePath>SFX/sword-001_818F3B66.wem</CachePath>
+				</File>
+				<File Id="710049256" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>sword-002.wav</ShortName>
+					<CachePath>SFX/sword-002_818F3B66.wem</CachePath>
+				</File>
+				<File Id="763865743" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>explosion.wav</ShortName>
+					<CachePath>SFX/explosion_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="1807770338" Name="Play_RND_SwordWhoosh" ObjectPath="\Events\Default Work Unit\Play_RND_SwordWhoosh" GUID="{AD18A7A9-9B43-4C10-9C78-E45AC2F3EF36}" DurationType="OneShot" DurationMin="0.24949203" DurationMax="0.4406627">
+					<MediaRefs>
+						<MediaRef Id="114855330"/>
+						<MediaRef Id="161970053"/>
+						<MediaRef Id="262077039"/>
+						<MediaRef Id="525743962"/>
+						<MediaRef Id="710049256"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2514707895" Name="Play_SFX_Explosion" ObjectPath="\Events\Default Work Unit\Play_SFX_Explosion" GUID="{F784881D-EB5C-47CD-9E14-A0E7839B9FDD}" DurationType="OneShot" DurationMin="0.73290443" DurationMax="0.8226575">
+					<MediaRefs>
+						<MediaRef Id="763865743"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2620856293" Name="Play_SFX_Scream" ObjectPath="\Events\Default Work Unit\Play_SFX_Scream" GUID="{8217C50D-9C43-493C-8D22-C986C607B415}" DurationType="OneShot" DurationMin="3.713288" DurationMax="3.713288">
+					<MediaRefs>
+						<MediaRef Id="488117437"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="911684419" Name="Stop_SFX_Scream" ObjectPath="\Events\Default Work Unit\Stop_SFX_Scream" GUID="{5F576338-6832-49BB-B22F-222F00DBE15A}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{ADF34955-FE48-AF83-76BB-EECE809333FF}">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<Plugins>
+				<AudioDevices>
+					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" GUID="{CE51D596-8423-40B9-934C-BF21C214754F}" LibName="No Output" LibId="11862023"/>
+					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" GUID="{52EA4767-5F49-4795-A4A0-2F90B8EB7178}" LibName="System" LibId="11403271"/>
+				</AudioDevices>
+			</Plugins>
+			<Busses>
+				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus" GUID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
+			</Busses>
+			<GameParameters>
+				<GameParameter Id="2379520782" Name="GP_Menu" ObjectPath="\Game Parameters\Default Work Unit\GP_Menu" GUID="{B3BB93F0-2355-48A5-9A18-666368EE1B14}"/>
+			</GameParameters>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{122AB9FE-2AEC-4D06-930D-297531E3D68E}">
+					<Switches>
+						<Switch Id="1788550750" Name="Pierre" ObjectPath="\Switches\Default Work Unit\Material\Pierre" GUID="{03071D1E-8334-430E-A2F7-D491F76E0125}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{0194E655-65DE-4580-B8A8-AB6A1F195B1F}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+		<SoundBank Id="1674255911" Type="User" GUID="{142B20AD-DBD3-453C-A19A-F8004E012D80}" Language="SFX" Hash="{01BA28A6-F1A7-5732-1C24-1CA4AC63480F}">
+			<ObjectPath>\SoundBanks\Default Work Unit\SB_PlayerSound</ObjectPath>
+			<ShortName>SB_PlayerSound</ShortName>
+			<Path>SB_PlayerSound.bnk</Path>
+			<Media>
+				<File Id="361212709" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetalFootStep3.wav</ShortName>
+					<CachePath>SFX/MetalFootStep3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="381522998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetalFootStep4.wav</ShortName>
+					<CachePath>SFX/MetalFootStep4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="440668861" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps3.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps3_818F3B66.wem</CachePath>
+				</File>
+				<File Id="572875344" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetalFootStep2.wav</ShortName>
+					<CachePath>SFX/MetalFootStep2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="652325852" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>MetalFootStep1.wav</ShortName>
+					<CachePath>SFX/MetalFootStep1_818F3B66.wem</CachePath>
+				</File>
+				<File Id="704130301" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps2.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps2_818F3B66.wem</CachePath>
+				</File>
+				<File Id="784844279" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps4.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps4_818F3B66.wem</CachePath>
+				</File>
+				<File Id="806271620" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps_818F3B66.wem</CachePath>
+				</File>
+				<File Id="819224985" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps5.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps5_818F3B66.wem</CachePath>
+				</File>
+				<File Id="841158516" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>NormalFootsteps6.wav</ShortName>
+					<CachePath>SFX/NormalFootsteps6_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="179233414" Name="Play_RDN_Metal" ObjectPath="\Events\Default Work Unit\Play_RDN_Metal" GUID="{AECE16F4-FC90-4A14-A26E-BB1A158492A8}" DurationType="OneShot" DurationMin="0.13927111" DurationMax="1.0168821">
+					<MediaRefs>
+						<MediaRef Id="361212709"/>
+						<MediaRef Id="381522998"/>
+						<MediaRef Id="572875344"/>
+						<MediaRef Id="652325852"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1076973970" Name="Play_RND_Pierre" ObjectPath="\Events\Default Work Unit\Play_RND_Pierre" GUID="{BB47A442-B23A-47F4-8E3C-E93648E17425}" DurationType="OneShot" DurationMin="0.1286848" DurationMax="0.27269763">
+					<MediaRefs>
+						<MediaRef Id="440668861"/>
+						<MediaRef Id="704130301"/>
+						<MediaRef Id="784844279"/>
+						<MediaRef Id="806271620"/>
+						<MediaRef Id="819224985"/>
+						<MediaRef Id="841158516"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{122AB9FE-2AEC-4D06-930D-297531E3D68E}">
+					<Switches>
+						<Switch Id="1788550750" Name="Pierre" ObjectPath="\Switches\Default Work Unit\Material\Pierre" GUID="{03071D1E-8334-430E-A2F7-D491F76E0125}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{0194E655-65DE-4580-B8A8-AB6A1F195B1F}"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{196A107C-A9A2-6F55-96D5-CCA19BECAF5A}</FileHash>
+</SoundBanksInfo>
