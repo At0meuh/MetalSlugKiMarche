@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	33316852	Play_SFX_Flamewother			\Default Work Unit\BATET_Mathis\Play_SFX_Flamewother	
+	662206258	Stop_SFX_Flamewother			\Default Work Unit\Stop_SFX_Flamewother	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	328115380	SFX_Flamewother	D:\EDUSERVICES\Desktop\MetalSlugKiMarche\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\Flamewther_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\BATETMathis\Weapons\Flamewother\SFX_Flamewother		66708
+

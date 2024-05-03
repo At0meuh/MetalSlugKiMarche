@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="394398108" Type="User" GUID="{AB2335D2-DC7D-4AA0-846A-406C77AEE3F3}" Language="SFX" Hash="{B85CBE48-B385-57A3-F544-25EAEE3E5577}">
+			<ObjectPath>\SoundBanks\Default Work Unit\BATET_Mathis\SB_Flamowter</ObjectPath>
+			<ShortName>SB_Flamowter</ShortName>
+			<Path>SB_Flamowter.bnk</Path>
+			<Media>
+				<File Id="328115380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Flamewther.wav</ShortName>
+					<CachePath>SFX/Flamewther_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="33316852" Name="Play_SFX_Flamewother" ObjectPath="\Events\Default Work Unit\BATET_Mathis\Play_SFX_Flamewother" GUID="{3276FD5F-E192-4EDD-AE84-19D08302117F}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="328115380"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="662206258" Name="Stop_SFX_Flamewother" ObjectPath="\Events\Default Work Unit\Stop_SFX_Flamewother" GUID="{8918B9FE-5938-4811-B9CF-95A7DE856EDA}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{40B8B911-64AE-27DD-6F52-E87367ED8770}</FileHash>
+</SoundBanksInfo>

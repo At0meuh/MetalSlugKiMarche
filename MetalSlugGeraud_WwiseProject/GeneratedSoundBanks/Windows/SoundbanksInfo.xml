@@ -9,6 +9,25 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
+		<SoundBank Id="394398108" Type="User" GUID="{AB2335D2-DC7D-4AA0-846A-406C77AEE3F3}" Language="SFX" Hash="{B85CBE48-B385-57A3-F544-25EAEE3E5577}">
+			<ObjectPath>\SoundBanks\Default Work Unit\BATET_Mathis\SB_Flamowter</ObjectPath>
+			<ShortName>SB_Flamowter</ShortName>
+			<Path>SB_Flamowter.bnk</Path>
+			<Media>
+				<File Id="328115380" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Flamewther.wav</ShortName>
+					<CachePath>SFX/Flamewther_FBC78EF0.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="33316852" Name="Play_SFX_Flamewother" ObjectPath="\Events\Default Work Unit\BATET_Mathis\Play_SFX_Flamewother" GUID="{3276FD5F-E192-4EDD-AE84-19D08302117F}" DurationType="Infinite">
+					<MediaRefs>
+						<MediaRef Id="328115380"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="662206258" Name="Stop_SFX_Flamewother" ObjectPath="\Events\Default Work Unit\Stop_SFX_Flamewother" GUID="{8918B9FE-5938-4811-B9CF-95A7DE856EDA}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{89E682DA-F42E-3231-9BAA-C34F5F78EEDD}">
 			<ObjectPath>\SoundBanks\Default Work Unit\ALBERLATOURMateo\SB_MenuMusic</ObjectPath>
 			<ShortName>SB_MenuMusic</ShortName>
@@ -117,6 +136,25 @@
 				<Event Id="911684419" Name="Stop_SFX_Scream" ObjectPath="\Events\Default Work Unit\ALBERLATOURMateo\Stop_SFX_Scream" GUID="{5F576338-6832-49BB-B22F-222F00DBE15A}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
+		<SoundBank Id="1107029650" Type="User" GUID="{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}" Language="SFX" Hash="{1AD030CE-041F-B5A6-7BD8-E0340FF5B536}">
+			<ObjectPath>\SoundBanks\Default Work Unit\BATET_Mathis\SB_Fusil</ObjectPath>
+			<ShortName>SB_Fusil</ShortName>
+			<Path>SB_Fusil.bnk</Path>
+			<Media>
+				<File Id="124706938" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fusil.wav</ShortName>
+					<CachePath>SFX/Fusil_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2916154599" Name="Play_RND_FusilShoot_01" ObjectPath="\Events\Default Work Unit\BATET_Mathis\Play_RND_FusilShoot_01" GUID="{AB373235-10FD-4DA2-BDF5-BCE73F1D594F}" DurationType="OneShot" DurationMin="0.17655005" DurationMax="0.18704826">
+					<MediaRefs>
+						<MediaRef Id="124706938"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2231993" Name="Stop_RND_FusilShoot" ObjectPath="\Events\Default Work Unit\BATET_Mathis\Stop_RND_FusilShoot" GUID="{EE792866-2F71-4DE9-9500-D58642590295}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{9E6DF49E-9D42-F60A-CAC7-61E048157837}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
@@ -218,5 +256,5 @@
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{43BE1DB6-A266-8D32-A6AE-B7FABF23BE43}</FileHash>
+	<FileHash>{650D98F7-EE78-9209-BAB6-1EA4925EA5D8}</FileHash>
 </SoundBanksInfo>

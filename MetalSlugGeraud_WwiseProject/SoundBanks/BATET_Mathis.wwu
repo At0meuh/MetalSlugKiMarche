@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{ABF3D92D-C42F-4E64-A98F-917638647F98}" SchemaVersion="119" RootDocumentID="{A69F3659-90B3-42FD-A225-CFC81B05113F}" ParentDocumentID="{A69F3659-90B3-42FD-A225-CFC81B05113F}">
+	<SoundBanks>
+		<WorkUnit Name="BATET_Mathis" ID="{ABF3D92D-C42F-4E64-A98F-917638647F98}" OwnerID="{A69F3659-90B3-42FD-A225-CFC81B05113F}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="SB_Flamowter" ID="{AB2335D2-DC7D-4AA0-846A-406C77AEE3F3}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Stop_SFX_Flamewother" ID="{8918B9FE-5938-4811-B9CF-95A7DE856EDA}" WorkUnitID="{D008CB79-568D-4E9D-B4AC-E2D0C98BBA20}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Flamewother" ID="{3276FD5F-E192-4EDD-AE84-19D08302117F}" WorkUnitID="{2CAFF3B8-1EBE-4B47-A0B4-B322F889CECC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_Fusil" ID="{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_RND_FusilShoot_01" ID="{AB373235-10FD-4DA2-BDF5-BCE73F1D594F}" WorkUnitID="{2CAFF3B8-1EBE-4B47-A0B4-B322F889CECC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_RND_FusilShoot" ID="{EE792866-2F71-4DE9-9500-D58642590295}" WorkUnitID="{2CAFF3B8-1EBE-4B47-A0B4-B322F889CECC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>

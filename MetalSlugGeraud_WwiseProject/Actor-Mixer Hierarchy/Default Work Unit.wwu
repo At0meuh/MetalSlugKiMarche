@@ -4,6 +4,7 @@
 		<WorkUnit Name="Default Work Unit" ID="{C35BB813-E315-45A9-B252-EC4A01759CD4}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="ALBERLATOURMateo" ID="{20E522FA-2F03-4483-8E04-1606DC7EC207}" PersistMode="Reference"/>
+				<WorkUnit Name="BATETMathis" ID="{E484BDA9-B954-4778-A39E-1CA39E2DDFAA}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

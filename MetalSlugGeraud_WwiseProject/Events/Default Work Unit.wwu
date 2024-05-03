@@ -4,6 +4,21 @@
 		<WorkUnit Name="Default Work Unit" ID="{D008CB79-568D-4E9D-B4AC-E2D0C98BBA20}" PersistMode="Standalone">
 			<ChildrenList>
 				<WorkUnit Name="ALBERLATOURMateo" ID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" PersistMode="Reference"/>
+				<WorkUnit Name="BATET_Mathis" ID="{2CAFF3B8-1EBE-4B47-A0B4-B322F889CECC}" PersistMode="Reference"/>
+				<Event Name="Stop_SFX_Flamewother" ID="{8918B9FE-5938-4811-B9CF-95A7DE856EDA}">
+					<ChildrenList>
+						<Action Name="" ID="{DBEA2ABD-D71D-4698-A5CD-273E53B57239}" ShortID="229901709">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Flamewother" ID="{7AE81BD9-47CD-4FF9-84E9-E6069083F22F}" WorkUnitID="{E484BDA9-B954-4778-A39E-1CA39E2DDFAA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

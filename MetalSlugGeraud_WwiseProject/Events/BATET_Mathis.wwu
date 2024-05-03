@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{2CAFF3B8-1EBE-4B47-A0B4-B322F889CECC}" SchemaVersion="119" RootDocumentID="{D008CB79-568D-4E9D-B4AC-E2D0C98BBA20}" ParentDocumentID="{D008CB79-568D-4E9D-B4AC-E2D0C98BBA20}">
+	<Events>
+		<WorkUnit Name="BATET_Mathis" ID="{2CAFF3B8-1EBE-4B47-A0B4-B322F889CECC}" OwnerID="{D008CB79-568D-4E9D-B4AC-E2D0C98BBA20}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_RND_FusilShoot" ID="{523BFEBE-A0E0-492F-9BCA-DA31AF6E88A2}">
+					<ChildrenList>
+						<Action Name="" ID="{8CA393D0-413E-43D1-8FFC-5F9DE65C5A24}" ShortID="190311940">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_FusilShoot" ID="{CEB76FFF-0DF0-4C44-837D-8596BAEFA223}" WorkUnitID="{E484BDA9-B954-4778-A39E-1CA39E2DDFAA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Flamewother" ID="{3276FD5F-E192-4EDD-AE84-19D08302117F}">
+					<ChildrenList>
+						<Action Name="" ID="{7D413F2E-5834-4A92-AEF2-013EE677BAAF}" ShortID="34223217">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Flamewother" ID="{7AE81BD9-47CD-4FF9-84E9-E6069083F22F}" WorkUnitID="{E484BDA9-B954-4778-A39E-1CA39E2DDFAA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_RND_FusilShoot_01" ID="{AB373235-10FD-4DA2-BDF5-BCE73F1D594F}">
+					<ChildrenList>
+						<Action Name="" ID="{878D18EA-6AC6-4851-A23F-42B70188E04F}" ShortID="643972312">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_FusilShoot" ID="{CEB76FFF-0DF0-4C44-837D-8596BAEFA223}" WorkUnitID="{E484BDA9-B954-4778-A39E-1CA39E2DDFAA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_RND_FusilShoot" ID="{EE792866-2F71-4DE9-9500-D58642590295}">
+					<ChildrenList>
+						<Action Name="" ID="{18EA6BF1-9CC9-4AB1-8ACB-DA0038883978}" ShortID="1051892388">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="RND_FusilShoot" ID="{CEB76FFF-0DF0-4C44-837D-8596BAEFA223}" WorkUnitID="{E484BDA9-B954-4778-A39E-1CA39E2DDFAA}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

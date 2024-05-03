@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="1107029650" Type="User" GUID="{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}" Language="SFX" Hash="{1AD030CE-041F-B5A6-7BD8-E0340FF5B536}">
+			<ObjectPath>\SoundBanks\Default Work Unit\BATET_Mathis\SB_Fusil</ObjectPath>
+			<ShortName>SB_Fusil</ShortName>
+			<Path>SB_Fusil.bnk</Path>
+			<Media>
+				<File Id="124706938" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fusil.wav</ShortName>
+					<CachePath>SFX/Fusil_818F3B66.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="2916154599" Name="Play_RND_FusilShoot_01" ObjectPath="\Events\Default Work Unit\BATET_Mathis\Play_RND_FusilShoot_01" GUID="{AB373235-10FD-4DA2-BDF5-BCE73F1D594F}" DurationType="OneShot" DurationMin="0.17655005" DurationMax="0.18704826">
+					<MediaRefs>
+						<MediaRef Id="124706938"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2231993" Name="Stop_RND_FusilShoot" ObjectPath="\Events\Default Work Unit\BATET_Mathis\Stop_RND_FusilShoot" GUID="{EE792866-2F71-4DE9-9500-D58642590295}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+			</Events>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{CFCD8405-C287-1E61-935E-68B805DB0A62}</FileHash>
+</SoundBanksInfo>

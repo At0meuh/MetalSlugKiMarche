@@ -1,0 +1,57 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "1107029650",
+    "Type": "User",
+    "GUID": "{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}",
+    "Language": "SFX",
+    "Hash": "{1AD030CE-041F-B5A6-7BD8-E0340FF5B536}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\BATET_Mathis\\SB_Fusil",
+    "ShortName": "SB_Fusil",
+    "Path": "SB_Fusil.bnk",
+    "Media": [
+     {
+      "Id": "124706938",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fusil.wav",
+      "CachePath": "SFX/Fusil_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2916154599",
+      "Name": "Play_RND_FusilShoot_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\BATET_Mathis\\Play_RND_FusilShoot_01",
+      "GUID": "{AB373235-10FD-4DA2-BDF5-BCE73F1D594F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17655005",
+      "DurationMax": "0.18704826",
+      "MediaRefs": [
+       {
+        "Id": "124706938"
+       }
+      ]
+     },
+     {
+      "Id": "2231993",
+      "Name": "Stop_RND_FusilShoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\BATET_Mathis\\Stop_RND_FusilShoot",
+      "GUID": "{EE792866-2F71-4DE9-9500-D58642590295}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   }
+  ],
+  "FileHash": "{5DDBC84D-D05C-366E-C48A-F9786937868D}"
+ }
+}

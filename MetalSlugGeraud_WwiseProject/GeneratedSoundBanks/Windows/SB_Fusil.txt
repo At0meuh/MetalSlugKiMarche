@@ -1,0 +1,7 @@
+Event	ID	Name			Wwise Object Path	Notes
+	2231993	Stop_RND_FusilShoot			\Default Work Unit\BATET_Mathis\Stop_RND_FusilShoot	
+	2916154599	Play_RND_FusilShoot_01			\Default Work Unit\BATET_Mathis\Play_RND_FusilShoot_01	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	124706938	Fusil	D:\EDUSERVICES\Desktop\MetalSlugKiMarche\MetalSlugGeraud_WwiseProject\.cache\Windows\SFX\Fusil_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\BATETMathis\Weapons\RND_FusilShoot\Fusil		32152
+

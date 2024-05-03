@@ -14,6 +14,50 @@
   "DialogueEvents": [],
   "SoundBanks": [
    {
+    "Id": "394398108",
+    "Type": "User",
+    "GUID": "{AB2335D2-DC7D-4AA0-846A-406C77AEE3F3}",
+    "Language": "SFX",
+    "Hash": "{B85CBE48-B385-57A3-F544-25EAEE3E5577}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\BATET_Mathis\\SB_Flamowter",
+    "ShortName": "SB_Flamowter",
+    "Path": "SB_Flamowter.bnk",
+    "Media": [
+     {
+      "Id": "328115380",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Flamewther.wav",
+      "CachePath": "SFX/Flamewther_FBC78EF0.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "33316852",
+      "Name": "Play_SFX_Flamewother",
+      "ObjectPath": "\\Events\\Default Work Unit\\BATET_Mathis\\Play_SFX_Flamewother",
+      "GUID": "{3276FD5F-E192-4EDD-AE84-19D08302117F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "328115380"
+       }
+      ]
+     },
+     {
+      "Id": "662206258",
+      "Name": "Stop_SFX_Flamewother",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Flamewother",
+      "GUID": "{8918B9FE-5938-4811-B9CF-95A7DE856EDA}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   },
+   {
     "Id": "475414361",
     "Type": "User",
     "GUID": "{E429E401-F976-4E4F-AC64-1147BB0CF19B}",
@@ -269,6 +313,52 @@
     ]
    },
    {
+    "Id": "1107029650",
+    "Type": "User",
+    "GUID": "{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}",
+    "Language": "SFX",
+    "Hash": "{1AD030CE-041F-B5A6-7BD8-E0340FF5B536}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\BATET_Mathis\\SB_Fusil",
+    "ShortName": "SB_Fusil",
+    "Path": "SB_Fusil.bnk",
+    "Media": [
+     {
+      "Id": "124706938",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Fusil.wav",
+      "CachePath": "SFX/Fusil_818F3B66.wem"
+     }
+    ],
+    "Events": [
+     {
+      "Id": "2916154599",
+      "Name": "Play_RND_FusilShoot_01",
+      "ObjectPath": "\\Events\\Default Work Unit\\BATET_Mathis\\Play_RND_FusilShoot_01",
+      "GUID": "{AB373235-10FD-4DA2-BDF5-BCE73F1D594F}",
+      "DurationType": "OneShot",
+      "DurationMin": "0.17655005",
+      "DurationMax": "0.18704826",
+      "MediaRefs": [
+       {
+        "Id": "124706938"
+       }
+      ]
+     },
+     {
+      "Id": "2231993",
+      "Name": "Stop_RND_FusilShoot",
+      "ObjectPath": "\\Events\\Default Work Unit\\BATET_Mathis\\Stop_RND_FusilShoot",
+      "GUID": "{EE792866-2F71-4DE9-9500-D58642590295}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     }
+    ]
+   },
+   {
     "Id": "1355168291",
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
@@ -505,6 +595,6 @@
     ]
    }
   ],
-  "FileHash": "{1676B7BD-D146-2005-CC14-4E1FF661890C}"
+  "FileHash": "{B9BB3965-C41F-8BD1-9C61-865671C4631C}"
  }
 }
