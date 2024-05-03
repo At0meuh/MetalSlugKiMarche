@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{EAC45AD5-B51B-C00A-4555-BBD88DDD330D}">
+		<SoundBank Id="475414361" Type="User" GUID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}" Language="SFX" Hash="{89E682DA-F42E-3231-9BAA-C34F5F78EEDD}">
 			<ObjectPath>\SoundBanks\Default Work Unit\SB_MenuMusic</ObjectPath>
 			<ShortName>SB_MenuMusic</ShortName>
 			<Path>SB_MenuMusic.bnk</Path>
@@ -53,5 +53,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{45812017-40AF-7A4F-C800-80A83B9B31C7}</FileHash>
+	<FileHash>{A66B73C7-98E6-8E97-45D5-61ED2ABCA727}</FileHash>
 </SoundBanksInfo>
