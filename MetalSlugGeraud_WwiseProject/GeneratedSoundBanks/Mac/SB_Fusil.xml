@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="1107029650" Type="User" GUID="{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}" Language="SFX" Hash="{1AD030CE-041F-B5A6-7BD8-E0340FF5B536}">
+		<SoundBank Id="1107029650" Type="User" GUID="{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}" Language="SFX" Hash="{4B2CA5DF-61C0-184C-EBDD-C56B0FF8E8A0}">
 			<ObjectPath>\SoundBanks\Default Work Unit\BATET_Mathis\SB_Fusil</ObjectPath>
 			<ShortName>SB_Fusil</ShortName>
 			<Path>SB_Fusil.bnk</Path>
@@ -10,6 +10,14 @@
 					<ShortName>Fusil.wav</ShortName>
 					<CachePath>SFX/Fusil_818F3B66.wem</CachePath>
 				</File>
+				<File Id="481747713" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TpSounbd.wav</ShortName>
+					<CachePath>SFX/TpSounbd_818F3B66.wem</CachePath>
+				</File>
+				<File Id="831637424" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AttackSounnd.wav</ShortName>
+					<CachePath>SFX/AttackSounnd_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="2916154599" Name="Play_RND_FusilShoot_01" ObjectPath="\Events\Default Work Unit\BATET_Mathis\Play_RND_FusilShoot_01" GUID="{AB373235-10FD-4DA2-BDF5-BCE73F1D594F}" DurationType="OneShot" DurationMin="0.17655005" DurationMax="0.18704826">
@@ -17,9 +25,20 @@
 						<MediaRef Id="124706938"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3723265893" Name="Play_SFX_SpawnOrbs" ObjectPath="\Events\Default Work Unit\Play_SFX_SpawnOrbs" GUID="{D800FC7F-F756-4D15-BAF0-D38B0B7A20BA}" DurationType="OneShot" DurationMin="2.8445125" DurationMax="2.8445125">
+					<MediaRefs>
+						<MediaRef Id="831637424"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="118604446" Name="Play_SFX_TeeportBoss" ObjectPath="\Events\Default Work Unit\CROUZIE Ethan\Play_SFX_TeeportBoss" GUID="{2FF82112-6854-4A7B-9438-EDDE4EBD5DFB}" DurationType="OneShot" DurationMin="1.570068" DurationMax="1.570068">
+					<MediaRefs>
+						<MediaRef Id="481747713"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2231993" Name="Stop_RND_FusilShoot" ObjectPath="\Events\Default Work Unit\BATET_Mathis\Stop_RND_FusilShoot" GUID="{EE792866-2F71-4DE9-9500-D58642590295}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3235444956" Name="Stop_SFX_TeeportBoss" ObjectPath="\Events\Default Work Unit\CROUZIE Ethan\Stop_SFX_TeeportBoss" GUID="{B74A2A66-C73D-4C64-ACCC-F4CAD3EE850E}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{CFCD8405-C287-1E61-935E-68B805DB0A62}</FileHash>
+	<FileHash>{9DC6450B-60FA-B317-DBA6-ABBC024EDE2B}</FileHash>
 </SoundBanksInfo>

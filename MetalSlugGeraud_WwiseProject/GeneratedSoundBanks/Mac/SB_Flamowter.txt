@@ -3,5 +3,6 @@ Event	ID	Name			Wwise Object Path	Notes
 	662206258	Stop_SFX_Flamewother			\Default Work Unit\Stop_SFX_Flamewother	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	328115380	SFX_Flamewother	D:\EDUSERVICES\Desktop\MetalSlugKiMarche\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\Flamewther_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\BATETMathis\Weapons\Flamewother\SFX_Flamewother		66708
+	328115380	SFX_Flamewother	D:\EDUSERVICES\Documents\Unreal Projects\MetalSlugKiMarche\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\Flamewther_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\BATETMathis\Weapons\Flamewother\SFX_Flamewother		66708
+	481747713	SFX_TeeportBoss	D:\EDUSERVICES\Documents\Unreal Projects\MetalSlugKiMarche\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\TpSounbd_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\CROUZIE Ethan\Boss\ATK\SFX_TeeportBoss		277056
 

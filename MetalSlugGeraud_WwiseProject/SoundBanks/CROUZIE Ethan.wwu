@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{CB8C2396-B043-4969-9F70-EB774949C7A1}" SchemaVersion="119" RootDocumentID="{A69F3659-90B3-42FD-A225-CFC81B05113F}" ParentDocumentID="{A69F3659-90B3-42FD-A225-CFC81B05113F}">
+	<SoundBanks>
+		<WorkUnit Name="CROUZIE Ethan" ID="{CB8C2396-B043-4969-9F70-EB774949C7A1}" OwnerID="{A69F3659-90B3-42FD-A225-CFC81B05113F}" PersistMode="Nested"/>
+	</SoundBanks>
+</WwiseDocument>

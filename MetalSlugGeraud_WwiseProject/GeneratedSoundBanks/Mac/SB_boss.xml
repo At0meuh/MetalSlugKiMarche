@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Mac" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="150">
+	<SoundBanks>
+		<SoundBank Id="3386254234" Type="User" GUID="{19EEDAD7-2047-4BCB-9B73-933B0A3A0B36}" Language="SFX" Hash="{359A3AC3-D31E-C24E-EFCC-15658C5522E8}">
+			<ObjectPath>\SoundBanks\Default Work Unit\CROUZIE Ethan\SB_boss</ObjectPath>
+			<ShortName>SB_boss</ShortName>
+			<Path>SB_boss.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+	<FileHash>{EF71A0D8-E9FB-8D60-E08D-583559E81988}</FileHash>
+</SoundBanksInfo>

@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="394398108" Type="User" GUID="{AB2335D2-DC7D-4AA0-846A-406C77AEE3F3}" Language="SFX" Hash="{B85CBE48-B385-57A3-F544-25EAEE3E5577}">
+		<SoundBank Id="394398108" Type="User" GUID="{AB2335D2-DC7D-4AA0-846A-406C77AEE3F3}" Language="SFX" Hash="{8ECE4122-FA67-9EFF-B4B0-846D6806B7EC}">
 			<ObjectPath>\SoundBanks\Default Work Unit\BATET_Mathis\SB_Flamowter</ObjectPath>
 			<ShortName>SB_Flamowter</ShortName>
 			<Path>SB_Flamowter.bnk</Path>
@@ -17,6 +17,10 @@
 				<File Id="328115380" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flamewther.wav</ShortName>
 					<CachePath>SFX/Flamewther_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="481747713" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TpSounbd.wav</ShortName>
+					<CachePath>SFX/TpSounbd_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -136,7 +140,7 @@
 				<Event Id="911684419" Name="Stop_SFX_Scream" ObjectPath="\Events\Default Work Unit\ALBERLATOURMateo\Stop_SFX_Scream" GUID="{5F576338-6832-49BB-B22F-222F00DBE15A}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
-		<SoundBank Id="1107029650" Type="User" GUID="{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}" Language="SFX" Hash="{1AD030CE-041F-B5A6-7BD8-E0340FF5B536}">
+		<SoundBank Id="1107029650" Type="User" GUID="{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}" Language="SFX" Hash="{4B2CA5DF-61C0-184C-EBDD-C56B0FF8E8A0}">
 			<ObjectPath>\SoundBanks\Default Work Unit\BATET_Mathis\SB_Fusil</ObjectPath>
 			<ShortName>SB_Fusil</ShortName>
 			<Path>SB_Fusil.bnk</Path>
@@ -145,6 +149,14 @@
 					<ShortName>Fusil.wav</ShortName>
 					<CachePath>SFX/Fusil_818F3B66.wem</CachePath>
 				</File>
+				<File Id="481747713" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TpSounbd.wav</ShortName>
+					<CachePath>SFX/TpSounbd_818F3B66.wem</CachePath>
+				</File>
+				<File Id="831637424" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>AttackSounnd.wav</ShortName>
+					<CachePath>SFX/AttackSounnd_818F3B66.wem</CachePath>
+				</File>
 			</Media>
 			<Events>
 				<Event Id="2916154599" Name="Play_RND_FusilShoot_01" ObjectPath="\Events\Default Work Unit\BATET_Mathis\Play_RND_FusilShoot_01" GUID="{AB373235-10FD-4DA2-BDF5-BCE73F1D594F}" DurationType="OneShot" DurationMin="0.17655005" DurationMax="0.18704826">
@@ -152,7 +164,18 @@
 						<MediaRef Id="124706938"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3723265893" Name="Play_SFX_SpawnOrbs" ObjectPath="\Events\Default Work Unit\Play_SFX_SpawnOrbs" GUID="{D800FC7F-F756-4D15-BAF0-D38B0B7A20BA}" DurationType="OneShot" DurationMin="2.8445125" DurationMax="2.8445125">
+					<MediaRefs>
+						<MediaRef Id="831637424"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="118604446" Name="Play_SFX_TeeportBoss" ObjectPath="\Events\Default Work Unit\CROUZIE Ethan\Play_SFX_TeeportBoss" GUID="{2FF82112-6854-4A7B-9438-EDDE4EBD5DFB}" DurationType="OneShot" DurationMin="1.570068" DurationMax="1.570068">
+					<MediaRefs>
+						<MediaRef Id="481747713"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2231993" Name="Stop_RND_FusilShoot" ObjectPath="\Events\Default Work Unit\BATET_Mathis\Stop_RND_FusilShoot" GUID="{EE792866-2F71-4DE9-9500-D58642590295}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3235444956" Name="Stop_SFX_TeeportBoss" ObjectPath="\Events\Default Work Unit\CROUZIE Ethan\Stop_SFX_TeeportBoss" GUID="{B74A2A66-C73D-4C64-ACCC-F4CAD3EE850E}" MaxAttenuation="0" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 			</Events>
 		</SoundBank>
 		<SoundBank Id="1355168291" Type="User" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX" Hash="{9E6DF49E-9D42-F60A-CAC7-61E048157837}">
@@ -255,6 +278,11 @@
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
+		<SoundBank Id="3386254234" Type="User" GUID="{19EEDAD7-2047-4BCB-9B73-933B0A3A0B36}" Language="SFX" Hash="{359A3AC3-D31E-C24E-EFCC-15658C5522E8}">
+			<ObjectPath>\SoundBanks\Default Work Unit\CROUZIE Ethan\SB_boss</ObjectPath>
+			<ShortName>SB_boss</ShortName>
+			<Path>SB_boss.bnk</Path>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{650D98F7-EE78-9209-BAB6-1EA4925EA5D8}</FileHash>
+	<FileHash>{F8939464-71C6-2C76-8831-C72AD21E12DB}</FileHash>
 </SoundBanksInfo>

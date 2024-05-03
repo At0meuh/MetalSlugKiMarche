@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="150">
 	<SoundBanks>
-		<SoundBank Id="394398108" Type="User" GUID="{AB2335D2-DC7D-4AA0-846A-406C77AEE3F3}" Language="SFX" Hash="{B85CBE48-B385-57A3-F544-25EAEE3E5577}">
+		<SoundBank Id="394398108" Type="User" GUID="{AB2335D2-DC7D-4AA0-846A-406C77AEE3F3}" Language="SFX" Hash="{8ECE4122-FA67-9EFF-B4B0-846D6806B7EC}">
 			<ObjectPath>\SoundBanks\Default Work Unit\BATET_Mathis\SB_Flamowter</ObjectPath>
 			<ShortName>SB_Flamowter</ShortName>
 			<Path>SB_Flamowter.bnk</Path>
@@ -9,6 +9,10 @@
 				<File Id="328115380" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flamewther.wav</ShortName>
 					<CachePath>SFX/Flamewther_FBC78EF0.wem</CachePath>
+				</File>
+				<File Id="481747713" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TpSounbd.wav</ShortName>
+					<CachePath>SFX/TpSounbd_818F3B66.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
@@ -21,5 +25,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{40B8B911-64AE-27DD-6F52-E87367ED8770}</FileHash>
+	<FileHash>{4A559716-83B1-663F-18C0-B67297A56F91}</FileHash>
 </SoundBanksInfo>

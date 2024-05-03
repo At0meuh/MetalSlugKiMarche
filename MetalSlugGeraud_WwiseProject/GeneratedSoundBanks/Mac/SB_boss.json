@@ -1,0 +1,21 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Mac",
+  "BasePlatform": "Mac",
+  "SchemaVersion": "16",
+  "SoundBankVersion": "150",
+  "SoundBanks": [
+   {
+    "Id": "3386254234",
+    "Type": "User",
+    "GUID": "{19EEDAD7-2047-4BCB-9B73-933B0A3A0B36}",
+    "Language": "SFX",
+    "Hash": "{359A3AC3-D31E-C24E-EFCC-15658C5522E8}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\CROUZIE Ethan\\SB_boss",
+    "ShortName": "SB_boss",
+    "Path": "SB_boss.bnk"
+   }
+  ],
+  "FileHash": "{0EBFC67F-FC71-65C7-CA3D-EC6325485880}"
+ }
+}

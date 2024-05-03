@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{AB2335D2-DC7D-4AA0-846A-406C77AEE3F3}",
     "Language": "SFX",
-    "Hash": "{B85CBE48-B385-57A3-F544-25EAEE3E5577}",
+    "Hash": "{8ECE4122-FA67-9EFF-B4B0-846D6806B7EC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\BATET_Mathis\\SB_Flamowter",
     "ShortName": "SB_Flamowter",
     "Path": "SB_Flamowter.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "Flamewther.wav",
       "CachePath": "SFX/Flamewther_FBC78EF0.wem"
+     },
+     {
+      "Id": "481747713",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TpSounbd.wav",
+      "CachePath": "SFX/TpSounbd_818F3B66.wem"
      }
     ],
     "Events": [
@@ -50,6 +58,6 @@
     ]
    }
   ],
-  "FileHash": "{457ED273-6D65-4E5A-5DBB-A9809C1FBA4C}"
+  "FileHash": "{6C567050-C71C-68F3-3106-F35C8657C505}"
  }
 }

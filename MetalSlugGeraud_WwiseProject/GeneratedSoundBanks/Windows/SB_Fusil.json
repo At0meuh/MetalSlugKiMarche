@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}",
     "Language": "SFX",
-    "Hash": "{1AD030CE-041F-B5A6-7BD8-E0340FF5B536}",
+    "Hash": "{4B2CA5DF-61C0-184C-EBDD-C56B0FF8E8A0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\BATET_Mathis\\SB_Fusil",
     "ShortName": "SB_Fusil",
     "Path": "SB_Fusil.bnk",
@@ -22,6 +22,22 @@
       "Location": "Memory",
       "ShortName": "Fusil.wav",
       "CachePath": "SFX/Fusil_818F3B66.wem"
+     },
+     {
+      "Id": "481747713",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TpSounbd.wav",
+      "CachePath": "SFX/TpSounbd_818F3B66.wem"
+     },
+     {
+      "Id": "831637424",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AttackSounnd.wav",
+      "CachePath": "SFX/AttackSounnd_818F3B66.wem"
      }
     ],
     "Events": [
@@ -40,6 +56,34 @@
       ]
      },
      {
+      "Id": "3723265893",
+      "Name": "Play_SFX_SpawnOrbs",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_SpawnOrbs",
+      "GUID": "{D800FC7F-F756-4D15-BAF0-D38B0B7A20BA}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8445125",
+      "DurationMax": "2.8445125",
+      "MediaRefs": [
+       {
+        "Id": "831637424"
+       }
+      ]
+     },
+     {
+      "Id": "118604446",
+      "Name": "Play_SFX_TeeportBoss",
+      "ObjectPath": "\\Events\\Default Work Unit\\CROUZIE Ethan\\Play_SFX_TeeportBoss",
+      "GUID": "{2FF82112-6854-4A7B-9438-EDDE4EBD5DFB}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.570068",
+      "DurationMax": "1.570068",
+      "MediaRefs": [
+       {
+        "Id": "481747713"
+       }
+      ]
+     },
+     {
       "Id": "2231993",
       "Name": "Stop_RND_FusilShoot",
       "ObjectPath": "\\Events\\Default Work Unit\\BATET_Mathis\\Stop_RND_FusilShoot",
@@ -48,10 +92,20 @@
       "DurationType": "OneShot",
       "DurationMin": "0",
       "DurationMax": "0"
+     },
+     {
+      "Id": "3235444956",
+      "Name": "Stop_SFX_TeeportBoss",
+      "ObjectPath": "\\Events\\Default Work Unit\\CROUZIE Ethan\\Stop_SFX_TeeportBoss",
+      "GUID": "{B74A2A66-C73D-4C64-ACCC-F4CAD3EE850E}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ]
    }
   ],
-  "FileHash": "{146F0BD4-EE4C-1588-82EE-244B28CBB814}"
+  "FileHash": "{42354561-27A3-5AC8-E7A4-6C1D7618C42C}"
  }
 }

@@ -18,7 +18,7 @@
     "Type": "User",
     "GUID": "{AB2335D2-DC7D-4AA0-846A-406C77AEE3F3}",
     "Language": "SFX",
-    "Hash": "{B85CBE48-B385-57A3-F544-25EAEE3E5577}",
+    "Hash": "{8ECE4122-FA67-9EFF-B4B0-846D6806B7EC}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\BATET_Mathis\\SB_Flamowter",
     "ShortName": "SB_Flamowter",
     "Path": "SB_Flamowter.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Flamewther.wav",
       "CachePath": "SFX/Flamewther_FBC78EF0.wem"
+     },
+     {
+      "Id": "481747713",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TpSounbd.wav",
+      "CachePath": "SFX/TpSounbd_818F3B66.wem"
      }
     ],
     "Events": [
@@ -317,7 +325,7 @@
     "Type": "User",
     "GUID": "{373A7A36-CA0D-4A57-B9A3-EB24EB931E2C}",
     "Language": "SFX",
-    "Hash": "{1AD030CE-041F-B5A6-7BD8-E0340FF5B536}",
+    "Hash": "{4B2CA5DF-61C0-184C-EBDD-C56B0FF8E8A0}",
     "ObjectPath": "\\SoundBanks\\Default Work Unit\\BATET_Mathis\\SB_Fusil",
     "ShortName": "SB_Fusil",
     "Path": "SB_Fusil.bnk",
@@ -329,6 +337,22 @@
       "Location": "Memory",
       "ShortName": "Fusil.wav",
       "CachePath": "SFX/Fusil_818F3B66.wem"
+     },
+     {
+      "Id": "481747713",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "TpSounbd.wav",
+      "CachePath": "SFX/TpSounbd_818F3B66.wem"
+     },
+     {
+      "Id": "831637424",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "AttackSounnd.wav",
+      "CachePath": "SFX/AttackSounnd_818F3B66.wem"
      }
     ],
     "Events": [
@@ -347,10 +371,48 @@
       ]
      },
      {
+      "Id": "3723265893",
+      "Name": "Play_SFX_SpawnOrbs",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_SpawnOrbs",
+      "GUID": "{D800FC7F-F756-4D15-BAF0-D38B0B7A20BA}",
+      "DurationType": "OneShot",
+      "DurationMin": "2.8445125",
+      "DurationMax": "2.8445125",
+      "MediaRefs": [
+       {
+        "Id": "831637424"
+       }
+      ]
+     },
+     {
+      "Id": "118604446",
+      "Name": "Play_SFX_TeeportBoss",
+      "ObjectPath": "\\Events\\Default Work Unit\\CROUZIE Ethan\\Play_SFX_TeeportBoss",
+      "GUID": "{2FF82112-6854-4A7B-9438-EDDE4EBD5DFB}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.570068",
+      "DurationMax": "1.570068",
+      "MediaRefs": [
+       {
+        "Id": "481747713"
+       }
+      ]
+     },
+     {
       "Id": "2231993",
       "Name": "Stop_RND_FusilShoot",
       "ObjectPath": "\\Events\\Default Work Unit\\BATET_Mathis\\Stop_RND_FusilShoot",
       "GUID": "{EE792866-2F71-4DE9-9500-D58642590295}",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
+      "Id": "3235444956",
+      "Name": "Stop_SFX_TeeportBoss",
+      "ObjectPath": "\\Events\\Default Work Unit\\CROUZIE Ethan\\Stop_SFX_TeeportBoss",
+      "GUID": "{B74A2A66-C73D-4C64-ACCC-F4CAD3EE850E}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
       "DurationMin": "0",
@@ -593,8 +655,18 @@
       ]
      }
     ]
+   },
+   {
+    "Id": "3386254234",
+    "Type": "User",
+    "GUID": "{19EEDAD7-2047-4BCB-9B73-933B0A3A0B36}",
+    "Language": "SFX",
+    "Hash": "{359A3AC3-D31E-C24E-EFCC-15658C5522E8}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\CROUZIE Ethan\\SB_boss",
+    "ShortName": "SB_boss",
+    "Path": "SB_boss.bnk"
    }
   ],
-  "FileHash": "{9246062E-5603-EF8E-1E08-227B9536EEAC}"
+  "FileHash": "{D07B3813-4891-7BBB-D535-42909B2BAAB7}"
  }
 }
