@@ -10,8 +10,8 @@
     "Type": "User",
     "GUID": "{E429E401-F976-4E4F-AC64-1147BB0CF19B}",
     "Language": "SFX",
-    "Hash": "{EAC45AD5-B51B-C00A-4555-BBD88DDD330D}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_MenuMusic",
+    "Hash": "{89E682DA-F42E-3231-9BAA-C34F5F78EEDD}",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\ALBERLATOURMateo\\SB_MenuMusic",
     "ShortName": "SB_MenuMusic",
     "Path": "SB_MenuMusic.bnk",
     "Media": [
@@ -60,7 +60,7 @@
      {
       "Id": "1819622850",
       "Name": "Play_SC_Menu",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SC_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALBERLATOURMateo\\Play_SC_Menu",
       "GUID": "{42D54A32-FE45-4A8C-A6FE-78DC1408EA2F}",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -75,7 +75,7 @@
      {
       "Id": "1832282853",
       "Name": "Play_SFX_Nest0rScream",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Nest0rScream",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALBERLATOURMateo\\Play_SFX_Nest0rScream",
       "GUID": "{4EC554FF-AB05-47D2-8BE4-0EBB5B967CF2}",
       "DurationType": "OneShot",
       "DurationMin": "2.3800626",
@@ -89,7 +89,7 @@
      {
       "Id": "3280254048",
       "Name": "Play_SFX_SelectionButton",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_SelectionButton",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALBERLATOURMateo\\Play_SFX_SelectionButton",
       "GUID": "{E4872B82-55E1-45D0-9931-11AAB36252B9}",
       "DurationType": "OneShot",
       "DurationMin": "1.2291126",
@@ -103,7 +103,7 @@
      {
       "Id": "306136790",
       "Name": "Play_SFX_SwitchButton",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_SwitchButton",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALBERLATOURMateo\\Play_SFX_SwitchButton",
       "GUID": "{94FE0AAD-F2FC-40BF-9071-29C3FD755C18}",
       "DurationType": "OneShot",
       "DurationMin": "1.0183568",
@@ -117,7 +117,7 @@
      {
       "Id": "74438180",
       "Name": "Stop_SC_Menu",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SC_Menu",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALBERLATOURMateo\\Stop_SC_Menu",
       "GUID": "{5EB85CF7-BD37-450B-A127-F127B97B7F2F}",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -127,6 +127,6 @@
     ]
    }
   ],
-  "FileHash": "{5E221087-E047-882B-1606-0160B1F8F7C4}"
+  "FileHash": "{2136EC02-C259-FCBC-08B3-A095B79A016F}"
  }
 }

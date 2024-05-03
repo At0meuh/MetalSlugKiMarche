@@ -1,14 +1,14 @@
 Event	ID	Name			Wwise Object Path	Notes
-	74438180	Stop_SC_Menu			\Default Work Unit\Stop_SC_Menu	
-	306136790	Play_SFX_SwitchButton			\Default Work Unit\Play_SFX_SwitchButton	
-	1819622850	Play_SC_Menu			\Default Work Unit\Play_SC_Menu	
-	1832282853	Play_SFX_Nest0rScream			\Default Work Unit\Play_SFX_Nest0rScream	
-	3280254048	Play_SFX_SelectionButton			\Default Work Unit\Play_SFX_SelectionButton	
+	74438180	Stop_SC_Menu			\Default Work Unit\ALBERLATOURMateo\Stop_SC_Menu	
+	306136790	Play_SFX_SwitchButton			\Default Work Unit\ALBERLATOURMateo\Play_SFX_SwitchButton	
+	1819622850	Play_SC_Menu			\Default Work Unit\ALBERLATOURMateo\Play_SC_Menu	
+	1832282853	Play_SFX_Nest0rScream			\Default Work Unit\ALBERLATOURMateo\Play_SFX_Nest0rScream	
+	3280254048	Play_SFX_SelectionButton			\Default Work Unit\ALBERLATOURMateo\Play_SFX_SelectionButton	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	427073833	MenuLoop	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\MenuLoop_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\SC_Menu\MenuLoop		4810052
-	433914112	SFX_Nest0rScream	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\R2_D2_Scream_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\SFX_Nest0rScream		457068
-	759811360	MenuStart	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\MenuStart_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\SC_Menu\MenuStart		738356
-	852612399	SFX_SelectionButton	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\SelectionSoundEffect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Widget\SFX_SelectionButton		229804
-	907686520	SFX_SwitchButton	D:\EDUSERVICES\Desktop\MetalSlugGeraud\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\SwitchButtonSoundEffect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\Menu\Widget\SFX_SwitchButton		190416
+	427073833	MenuLoop	D:\EDUSERVICES\Desktop\MetalSlugKiMarche\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\MenuLoop_FBC78EF0.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALBERLATOURMateo\Menu\SC_Menu\MenuLoop		4810052
+	433914112	SFX_Nest0rScream	D:\EDUSERVICES\Desktop\MetalSlugKiMarche\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\R2_D2_Scream_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALBERLATOURMateo\Menu\SFX_Nest0rScream		457068
+	759811360	MenuStart	D:\EDUSERVICES\Desktop\MetalSlugKiMarche\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\MenuStart_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALBERLATOURMateo\Menu\SC_Menu\MenuStart		738356
+	852612399	SFX_SelectionButton	D:\EDUSERVICES\Desktop\MetalSlugKiMarche\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\SelectionSoundEffect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALBERLATOURMateo\Menu\Widget\SFX_SelectionButton		229804
+	907686520	SFX_SwitchButton	D:\EDUSERVICES\Desktop\MetalSlugKiMarche\MetalSlugGeraud_WwiseProject\.cache\Mac\SFX\SwitchButtonSoundEffect_818F3B66.wem		\Actor-Mixer Hierarchy\Default Work Unit\ALBERLATOURMateo\Menu\Widget\SFX_SwitchButton		190416
 

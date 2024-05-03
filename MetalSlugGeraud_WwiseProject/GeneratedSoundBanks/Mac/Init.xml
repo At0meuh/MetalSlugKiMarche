@@ -18,14 +18,14 @@
 				<GameParameter Id="2379520782" Name="GP_Menu" ObjectPath="\Game Parameters\Default Work Unit\GP_Menu" GUID="{B3BB93F0-2355-48A5-9A18-666368EE1B14}"/>
 			</GameParameters>
 			<SwitchGroups>
-				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\Material" GUID="{122AB9FE-2AEC-4D06-930D-297531E3D68E}">
+				<SwitchGroup Id="3865314626" Name="Material" ObjectPath="\Switches\Default Work Unit\ALBERLATOURMateo\Material" GUID="{122AB9FE-2AEC-4D06-930D-297531E3D68E}">
 					<Switches>
-						<Switch Id="1788550750" Name="Pierre" ObjectPath="\Switches\Default Work Unit\Material\Pierre" GUID="{03071D1E-8334-430E-A2F7-D491F76E0125}"/>
-						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\Material\Metal" GUID="{0194E655-65DE-4580-B8A8-AB6A1F195B1F}"/>
+						<Switch Id="1788550750" Name="Pierre" ObjectPath="\Switches\Default Work Unit\ALBERLATOURMateo\Material\Pierre" GUID="{03071D1E-8334-430E-A2F7-D491F76E0125}"/>
+						<Switch Id="2473969246" Name="Metal" ObjectPath="\Switches\Default Work Unit\ALBERLATOURMateo\Material\Metal" GUID="{0194E655-65DE-4580-B8A8-AB6A1F195B1F}"/>
 					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{7534DC41-A9D3-E65F-7250-881FFA44038C}</FileHash>
+	<FileHash>{FF3ACA3C-F2CA-B4BD-A6CB-2AFF8154F22C}</FileHash>
 </SoundBanksInfo>

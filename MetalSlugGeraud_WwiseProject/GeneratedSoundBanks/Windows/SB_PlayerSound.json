@@ -11,7 +11,7 @@
     "GUID": "{142B20AD-DBD3-453C-A19A-F8004E012D80}",
     "Language": "SFX",
     "Hash": "{01BA28A6-F1A7-5732-1C24-1CA4AC63480F}",
-    "ObjectPath": "\\SoundBanks\\Default Work Unit\\SB_PlayerSound",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\ALBERLATOURMateo\\SB_PlayerSound",
     "ShortName": "SB_PlayerSound",
     "Path": "SB_PlayerSound.bnk",
     "Media": [
@@ -100,7 +100,7 @@
      {
       "Id": "179233414",
       "Name": "Play_RDN_Metal",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_RDN_Metal",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALBERLATOURMateo\\Play_RDN_Metal",
       "GUID": "{AECE16F4-FC90-4A14-A26E-BB1A158492A8}",
       "DurationType": "OneShot",
       "DurationMin": "0.13927111",
@@ -123,7 +123,7 @@
      {
       "Id": "1076973970",
       "Name": "Play_RND_Pierre",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_RND_Pierre",
+      "ObjectPath": "\\Events\\Default Work Unit\\ALBERLATOURMateo\\Play_RND_Pierre",
       "GUID": "{BB47A442-B23A-47F4-8E3C-E93648E17425}",
       "DurationType": "OneShot",
       "DurationMin": "0.1286848",
@@ -154,19 +154,19 @@
      {
       "Id": "3865314626",
       "Name": "Material",
-      "ObjectPath": "\\Switches\\Default Work Unit\\Material",
+      "ObjectPath": "\\Switches\\Default Work Unit\\ALBERLATOURMateo\\Material",
       "GUID": "{122AB9FE-2AEC-4D06-930D-297531E3D68E}",
       "Switches": [
        {
         "Id": "1788550750",
         "Name": "Pierre",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Pierre",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ALBERLATOURMateo\\Material\\Pierre",
         "GUID": "{03071D1E-8334-430E-A2F7-D491F76E0125}"
        },
        {
         "Id": "2473969246",
         "Name": "Metal",
-        "ObjectPath": "\\Switches\\Default Work Unit\\Material\\Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\ALBERLATOURMateo\\Material\\Metal",
         "GUID": "{0194E655-65DE-4580-B8A8-AB6A1F195B1F}"
        }
       ]
@@ -174,6 +174,6 @@
     ]
    }
   ],
-  "FileHash": "{6DFD2D4B-1E88-698D-0BC6-D710BBC56B92}"
+  "FileHash": "{19CADFD2-E836-53AB-8322-7FC0BE999103}"
  }
 }

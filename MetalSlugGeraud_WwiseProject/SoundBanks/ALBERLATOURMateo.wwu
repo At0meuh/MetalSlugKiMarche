@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{627411F3-5597-4A50-BFCA-9DE303E96479}" SchemaVersion="119" RootDocumentID="{A69F3659-90B3-42FD-A225-CFC81B05113F}" ParentDocumentID="{A69F3659-90B3-42FD-A225-CFC81B05113F}">
+	<SoundBanks>
+		<WorkUnit Name="ALBERLATOURMateo" ID="{627411F3-5597-4A50-BFCA-9DE303E96479}" OwnerID="{A69F3659-90B3-42FD-A225-CFC81B05113F}" PersistMode="Nested">
+			<ChildrenList>
+				<SoundBank Name="SB_MenuMusic" ID="{E429E401-F976-4E4F-AC64-1147BB0CF19B}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_SwitchButton" ID="{94FE0AAD-F2FC-40BF-9071-29C3FD755C18}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_SC_Menu" ID="{5EB85CF7-BD37-450B-A127-F127B97B7F2F}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_SelectionButton" ID="{E4872B82-55E1-45D0-9931-11AAB36252B9}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Nest0rScream" ID="{4EC554FF-AB05-47D2-8BE4-0EBB5B967CF2}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SC_Menu" ID="{42D54A32-FE45-4A8C-A6FE-78DC1408EA2F}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_PlayerSound" ID="{142B20AD-DBD3-453C-A19A-F8004E012D80}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_RND_Pierre" ID="{BB47A442-B23A-47F4-8E3C-E93648E17425}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RDN_Metal" ID="{AECE16F4-FC90-4A14-A26E-BB1A158492A8}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+				<SoundBank Name="SB_Weapon" ID="{8DCF3529-1857-4788-96A3-A107A127FA39}">
+					<ObjectInclusionList>
+						<ObjectRef Name="Play_SFX_Explosion" ID="{F784881D-EB5C-47CD-9E14-A0E7839B9FDD}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_SFX_Scream" ID="{8217C50D-9C43-493C-8D22-C986C607B415}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Stop_SFX_Scream" ID="{5F576338-6832-49BB-B22F-222F00DBE15A}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_RND_SwordWhoosh" ID="{AD18A7A9-9B43-4C10-9C78-E45AC2F3EF36}" WorkUnitID="{C568FCBC-02AF-45B2-BD7E-F55C5612E0EC}" Origin="Manual" Filter="7"/>
+					</ObjectInclusionList>
+					<ObjectExclusionList/>
+					<GameSyncExclusionList/>
+				</SoundBank>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundBanks>
+</WwiseDocument>
